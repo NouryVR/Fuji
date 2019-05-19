@@ -17,6 +17,6 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('');
+Route::get('/roles', 'Perms\RoleController@index');
 
 Route::get('/home', 'HomeController@index')->name('home');
