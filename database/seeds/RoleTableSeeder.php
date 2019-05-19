@@ -18,7 +18,8 @@ class RoleTableSeeder extends Seeder
                 'display_name'  => 'Administrtor',
                 'description'   => 'Maintainer of the blog system',
                 'color'         => '#8B0000',
-                'priority'      => 100
+                'priority'      => 100,
+                'default'       => 1,
             ],
 
             [
@@ -56,10 +57,9 @@ class RoleTableSeeder extends Seeder
             [
                 'name'          => "member",
                 'display_name'  => 'Member',
-                'description'   => 'Default role which cannot be removed',
+                'description'   => 'Default role',
                 'color'         => '#000000',
                 'priority'      => 10,
-                'default'       => 1
             ],
         ];
 
